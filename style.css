@@ -1,0 +1,138 @@
+/*!
+Theme Name: Constra - Construction WP Theme
+Theme URI: http://tanvirfazley.xyz/constra
+Author: Tanvir Fazley
+Author URI: http://tanvirfazley.xyz/
+Description: Constra is a theme for professional builders, construction or even industrial production companies with a focus on presenting the team, current and recent projects. Responsive development of the layouts makes the theme look good on any modern device.
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: constra
+*/
+
+.page-link.current {
+    border-radius: 0 !important;
+    margin-right: 7px;
+    color: #fff;
+    background: #FFB600;
+}
+
+.page-link.dots {
+    color: #7c7c7c;
+    margin-right: 8px;
+}
+
+.page-link:focus {
+    box-shadow: none;
+}
+
+.constra_breadcumb {
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.constra_breadcumb span {
+    margin: 0 3px;
+}
+
+.constra_breadcumb .post {
+    border: 0;
+}
+
+.constra_breadcumb a:hover {
+    color: #fff;
+}
+
+.banner-area {
+    background-color: #111;
+}
+
+.comment-form label {
+    display: block;
+}
+
+.custome-checkbox {
+    margin-left: 20px;
+}
+
+.constra-recent-post .posts-thumb img {
+    width: 90px;
+    height: 70px;
+    margin-right: 15px;
+}
+
+.constra-recent-post .entry-title {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    margin: 0;
+}
+
+.constra-recent-post li {
+    border-bottom: 1px solid #dadada;
+    padding-bottom: 15px;
+    margin-bottom: 17px;
+}
+
+.constra-recent-post li:last-child {
+    border: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.sidebar.sidebar-right .tagcloud a {
+    border: 1px solid #dadada;
+    color: #303030;
+    display: inline-block;
+    font-size: 14px !important;
+    padding: 3px 15px;
+    transition: all 0.3s ease 0s;
+    text-transform: capitalize;
+    margin-right: 3px;
+}
+
+.sidebar.sidebar-right .tagcloud a:hover {
+    background: #ffb600;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+/* cat widget */
+.sidebar.sidebar-right .widget_categories ul,
+.sidebar.sidebar-right .widget_archive ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.sidebar.sidebar-right .widget_categories ul li,
+.sidebar.sidebar-right .widget_archive ul li {
+    color: #303030;
+    line-height: normal;
+}
+
+.sidebar.sidebar-right .widget_categories ul li a,
+.sidebar.sidebar-right .widget_archive ul li a {
+    color: #303030;
+    border-radius: 0;
+    padding: 15px 0;
+    padding-left: 0;
+    font-weight: 400;
+    border-bottom: 1px solid #ddd;
+    display: block;
+    transition: 400ms;
+    text-transform: capitalize;
+}
+
+.sidebar.sidebar-right .widget_categories ul li:last-child a,
+.sidebar.sidebar-right .widget_archive ul li:last-child a {
+    border-bottom: 0;
+}
+
+.sidebar.sidebar-right .widget_categories ul li:hover a,
+.sidebar.sidebar-right .widget_archive ul li:hover a {
+    color: #ffb600;
+}
